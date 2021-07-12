@@ -1,0 +1,90 @@
+#i1 {
+    height: 400px;
+    width: auto;
+    border-radius: 90%;
+}
+
+h1 {
+    font-size: 70px;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(#e62315 0%, #0252f2 50%, #c3e615 1000%);
+}
+
+p {
+    font-size: 30px;
+    color: lime;
+}
+
+.menu {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    background-color: white;
+}
+
+.links {
+    text-align: left;
+    font-family: fantasy;
+    display: inline;
+    font-size: 20px;
+    font-family: cursive;
+    float: right;
+    cursor: pointer;
+    position: sticky;
+    padding: inherit;
+}
+
+.links:hover {
+    background-color: cadetblue;
+    text-decoration: underline;
+    font-size: 25;
+}
+
+.a {
+    font-size: 30px;
+}
+
+img {
+    transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+#apps {
+    background-color: coral;
+}
+
+#contact {
+    background-color: white;
+}
+
+#videos {
+    background-color: blueviolet;
+}
+
+#hobbies {
+    background-color: firebrick;
+}
+
+#contact {
+    background: firebrick;
+}
+
+#contact iframe {
+    width: 100%;
+}
+
+.contact_1 h3 {
+    display: inline;
+}
+
+.contact_1 a {
+    color: white;
+    text-shadow: none;
+}
